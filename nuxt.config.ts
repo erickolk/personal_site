@@ -52,7 +52,8 @@ export default defineNuxtConfig({
 
   // Nitro Configuration for better performance
   nitro: {
-    compressPublicAssets: true
+    compressPublicAssets: true,
+    preset: 'github_pages'
   },
 
   // Runtime Config
