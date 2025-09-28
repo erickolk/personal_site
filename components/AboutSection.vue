@@ -57,39 +57,39 @@
               </div>
               <div class="flex items-center">
                 <i class="fas fa-certificate text-green-500 mr-3"></i>
-                <span class="text-gray-600">IMERSÃO EM TREINAMENTO DE GLÚTEOS DO BÁSICO AÍ AVANÇADO - João franken</span>
+                <span class="text-gray-600">Imersão em Treinamento de Glúteos: Do Básico ao Avançado - João Franken</span>
               </div>
               <div class="flex items-center">
                 <i class="fas fa-certificate text-green-500 mr-3"></i>
-                <span class="text-gray-600">BIOMECÂNICA APLICADA AO EXERCÍCIO PARA HIPERRTROFIA MUSCULAR- Rafael socin</span>
+                <span class="text-gray-600">Biomecânica Aplicada ao Exercício para Hipertrofia Muscular - Rafael Socin</span>
               </div>
               <div class="flex items-center">
                 <i class="fas fa-certificate text-green-500 mr-3"></i>
-                <span class="text-gray-600">MTOR, METODOLOGIA DE TREINAMENTO OTIMIZANDO RESUTALDOS- Maurício Medeiros</span>
+                <span class="text-gray-600">MTOR: Metodologia de Treinamento Otimizando Resultados - Maurício Medeiros</span>
               </div>
               <div class="flex items-center">
                 <i class="fas fa-certificate text-green-500 mr-3"></i>
-                <span class="text-gray-600">CLÍNICA PRÁTICA DOS PRINCIPAIS EXERCÍCIOS DA MUSCULAÇÃO PARA FORÇA E HIPERTROFIA- Jonato prestes.</span>
+                <span class="text-gray-600">Clínica Prática dos Principais Exercícios da Musculação para Força e Hipertrofia - Jonato Prestes</span>
               </div>
               <div class="flex items-center">
                 <i class="fas fa-certificate text-green-500 mr-3"></i>
-                <span class="text-gray-600">MONTAGEM E ORGANIZAÇÃO DO TREINAMENTO- Thiago trindade</span>
+                <span class="text-gray-600">Montagem e Organização do Treinamento - Thiago Trindade</span>
               </div>
               <div class="flex items-center">
                 <i class="fas fa-certificate text-green-500 mr-3"></i>
-                <span class="text-gray-600">Hipertrofia e estética para gluteos- carlos garon</span>
+                <span class="text-gray-600">Hipertrofia e Estética para Glúteos - Carlos Garon</span>
               </div>
               <div class="flex items-center">
                 <i class="fas fa-certificate text-green-500 mr-3"></i>
-                <span class="text-gray-600">QUEBRANDO PARADIGMAS- Walter krause</span>
+                <span class="text-gray-600">Quebrando Paradigmas - Walter Krause</span>
               </div>
               <div class="flex items-center">
                 <i class="fas fa-certificate text-green-500 mr-3"></i>
-                <span class="text-gray-600">PERIODIZAÇÃO NA MUSCULAÇÃO PARA MÁXIMA HIPERTROFIA- Leandro ribeiro</span>
+                <span class="text-gray-600">Periodização na Musculação para Máxima Hipertrofia - Leandro Ribeiro</span>
               </div>
               <div class="flex items-center">
                 <i class="fas fa-certificate text-green-500 mr-3"></i>
-                <span class="text-gray-600">Avaliação postural- João franken</span>
+                <span class="text-gray-600">Avaliação Postural - João Franken</span>
               </div>
             </div>
           </div>
