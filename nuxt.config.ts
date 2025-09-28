@@ -47,9 +47,6 @@ export default defineNuxtConfig({
     '~/assets/css/main.css'
   ],
 
-  // SSR Configuration
-  ssr: false,
-
   // Nitro Configuration for better performance
   nitro: {
     compressPublicAssets: true,
