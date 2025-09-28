@@ -9,6 +9,7 @@ export default defineNuxtConfig({
   
   // SEO Configuration
   app: {
+    baseURL: '/personal_site/',
     head: {
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
@@ -26,7 +27,7 @@ export default defineNuxtConfig({
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-        { rel: 'canonical', href: 'https://seudominio.com.br' }
+        { rel: 'canonical', href: 'https://erickolk.github.io/personal_site/' }
       ]
     }
   },
@@ -47,7 +48,7 @@ export default defineNuxtConfig({
   ],
 
   // SSR Configuration
-  ssr: true,
+  ssr: false,
 
   // Nitro Configuration for better performance
   nitro: {
@@ -57,7 +58,7 @@ export default defineNuxtConfig({
   // Runtime Config
   runtimeConfig: {
     public: {
-      siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://seudominio.com.br'
+      siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://erickolk.github.io/personal_site/'
     }
   }
 })
