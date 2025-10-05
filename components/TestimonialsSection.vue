@@ -37,8 +37,8 @@
           <!-- Author -->
           <div class="flex items-center">
             <img 
-              src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" 
-              alt="Maria Silva"
+              src="~/assets/images/feedbacks/IMG-20251005-WA0058.jpg" 
+              alt="Depoimento de cliente"
               class="w-12 h-12 rounded-full object-cover mr-4"
             >
             <div>
@@ -70,8 +70,8 @@
           <!-- Author -->
           <div class="flex items-center">
             <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" 
-              alt="João Santos"
+              src="~/assets/images/feedbacks/IMG-20251005-WA0059.jpg" 
+              alt="Depoimento de cliente"
               class="w-12 h-12 rounded-full object-cover mr-4"
             >
             <div>
@@ -104,8 +104,8 @@
           <!-- Author -->
           <div class="flex items-center">
             <img 
-              src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" 
-              alt="Ana Costa"
+              src="~/assets/images/feedbacks/IMG-20251005-WA0060.jpg" 
+              alt="Depoimento de cliente"
               class="w-12 h-12 rounded-full object-cover mr-4"
             >
             <div>
@@ -138,8 +138,8 @@
           <!-- Author -->
           <div class="flex items-center">
             <img 
-              src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" 
-              alt="Pedro Lima"
+              src="~/assets/images/feedbacks/IMG-20251005-WA0061.jpg" 
+              alt="Depoimento de cliente"
               class="w-12 h-12 rounded-full object-cover mr-4"
             >
             <div>
@@ -172,47 +172,13 @@
           <!-- Author -->
           <div class="flex items-center">
             <img 
-              src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" 
-              alt="Carla Mendes"
+              src="~/assets/images/feedbacks/IMG-20251005-WA0063.jpg" 
+              alt="Depoimento de cliente"
               class="w-12 h-12 rounded-full object-cover mr-4"
             >
             <div>
               <div class="font-semibold text-gray-800">Carla Mendes</div>
               <div class="text-gray-600 text-sm">38 anos, Médica</div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Testimonial 6 -->
-        <div class="bg-gray-50 rounded-2xl p-8 card-hover" data-aos="fade-up" data-aos-delay="600">
-          <!-- Stars -->
-          <div class="flex items-center mb-4">
-            <div class="flex text-yellow-400 text-lg">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <span class="ml-2 text-gray-600 text-sm">(5/5)</span>
-          </div>
-
-          <!-- Quote -->
-          <blockquote class="text-gray-700 text-lg leading-relaxed mb-6">
-            "O Victor Emanuel transformou minha relação com o exercício. Antes eu odiava academia, hoje não consigo ficar sem treinar! 
-            Ganhei 12kg de massa magra e muito mais autoestima. Melhor investimento que já fiz!"
-          </blockquote>
-
-          <!-- Author -->
-          <div class="flex items-center">
-            <img 
-              src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" 
-              alt="Roberto Alves"
-              class="w-12 h-12 rounded-full object-cover mr-4"
-            >
-            <div>
-              <div class="font-semibold text-gray-800">Roberto Alves</div>
-              <div class="text-gray-600 text-sm">42 anos, Engenheiro</div>
             </div>
           </div>
         </div>

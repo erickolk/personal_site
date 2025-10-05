@@ -14,19 +14,18 @@
 
       <!-- Services Grid -->
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <!-- Online Training -->
+        <!-- Bimestral Plan -->
         <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100" data-aos="fade-up" data-aos-delay="100">
           <div class="p-8">
             <!-- Icon -->
             <div class="w-16 h-16 bg-gradient-to-r from-green-500 to-green-600 rounded-xl flex items-center justify-center mb-6">
-              <i class="fas fa-laptop text-white text-2xl"></i>
+              <i class="fas fa-calendar-alt text-white text-2xl"></i>
             </div>
             
             <!-- Title & Description -->
-            <h3 class="text-2xl font-bold text-gray-800 mb-4">Treinamento Online</h3>
+            <h3 class="text-2xl font-bold text-gray-800 mb-4">Plano Bimestral</h3>
             <p class="text-gray-600 mb-6 leading-relaxed">
-              Treinos personalizados que você pode fazer em casa ou na academia. Inclui vídeos explicativos, 
-              planilhas detalhadas e acompanhamento semanal via WhatsApp.
+              Dois meses de treinamento personalizado para você começar com tudo. Ideal para quem busca resultados rápidos e consistentes.
             </p>
 
             <!-- Features -->
@@ -37,22 +36,18 @@
               </li>
               <li class="flex items-center space-x-3">
                 <i class="fas fa-check text-green-500"></i>
-                <span class="text-gray-600">Vídeos explicativos</span>
+                <span class="text-gray-600">Acompanhamento quinzenal</span>
               </li>
               <li class="flex items-center space-x-3">
                 <i class="fas fa-check text-green-500"></i>
                 <span class="text-gray-600">Suporte via WhatsApp</span>
               </li>
-              <li class="flex items-center space-x-3">
-                <i class="fas fa-check text-green-500"></i>
-                <span class="text-gray-600">Ajustes semanais</span>
-              </li>
             </ul>
 
             <!-- Price -->
             <div class="mb-6">
-              <span class="text-3xl font-bold text-gray-800">R$ 199</span>
-              <span class="text-gray-600">/mês</span>
+              <span class="text-3xl font-bold text-gray-800">R$ 200</span>
+              <span class="text-gray-600">/bimestre</span>
             </div>
 
             <!-- CTA -->
@@ -65,7 +60,7 @@
           </div>
         </div>
 
-        <!-- In-Person Training -->
+        <!-- Trimestral Plan -->
         <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-2 border-green-500 relative" data-aos="fade-up" data-aos-delay="200">
           <!-- Popular Badge -->
           <div class="absolute -top-4 left-1/2 transform -translate-x-1/2">
@@ -77,40 +72,35 @@
           <div class="p-8">
             <!-- Icon -->
             <div class="w-16 h-16 bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mb-6">
-              <i class="fas fa-dumbbell text-white text-2xl"></i>
+              <i class="fas fa-calendar-check text-white text-2xl"></i>
             </div>
             
             <!-- Title & Description -->
-            <h3 class="text-2xl font-bold text-gray-800 mb-4">Treinamento Presencial</h3>
+            <h3 class="text-2xl font-bold text-gray-800 mb-4">Plano Trimestral</h3>
             <p class="text-gray-600 mb-6 leading-relaxed">
-              Acompanhamento presencial completo com treinos na academia ou ao ar livre. 
-              Máxima atenção, correção de postura e motivação em tempo real.
+              Três meses de acompanhamento para consolidar seus hábitos e alcançar metas mais ousadas. O melhor custo-benefício.
             </p>
 
             <!-- Features -->
             <ul class="space-y-3 mb-8">
               <li class="flex items-center space-x-3">
                 <i class="fas fa-check text-green-500"></i>
-                <span class="text-gray-600">Acompanhamento presencial</span>
+                <span class="text-gray-600">Todos os benefícios do plano bimestral</span>
               </li>
               <li class="flex items-center space-x-3">
                 <i class="fas fa-check text-green-500"></i>
-                <span class="text-gray-600">Correção de postura</span>
+                <span class="text-gray-600">Avaliação postural inicial</span>
               </li>
               <li class="flex items-center space-x-3">
                 <i class="fas fa-check text-green-500"></i>
-                <span class="text-gray-600">Motivação em tempo real</span>
-              </li>
-              <li class="flex items-center space-x-3">
-                <i class="fas fa-check text-green-500"></i>
-                <span class="text-gray-600">Flexibilidade de horários</span>
+                <span class="text-gray-600">Ajustes mensais no treino</span>
               </li>
             </ul>
 
             <!-- Price -->
             <div class="mb-6">
-              <span class="text-3xl font-bold text-gray-800">R$ 399</span>
-              <span class="text-gray-600">/mês</span>
+              <span class="text-3xl font-bold text-gray-800">R$ 270</span>
+              <span class="text-gray-600">/trimestre</span>
             </div>
 
             <!-- CTA -->
@@ -123,45 +113,40 @@
           </div>
         </div>
 
-        <!-- Integrated Nutrition -->
+        <!-- 4 Meses Plan -->
         <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100" data-aos="fade-up" data-aos-delay="300">
           <div class="p-8">
             <!-- Icon -->
-            <div class="w-16 h-16 bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl flex items-center justify-center mb-6">
-              <i class="fas fa-apple-alt text-white text-2xl"></i>
+            <div class="w-16 h-16 bg-gradient-to-r from-purple-500 to-purple-600 rounded-xl flex items-center justify-center mb-6">
+              <i class="fas fa-road text-white text-2xl"></i>
             </div>
             
             <!-- Title & Description -->
-            <h3 class="text-2xl font-bold text-gray-800 mb-4">Nutrição Integrada</h3>
+            <h3 class="text-2xl font-bold text-gray-800 mb-4">Plano de 4 Meses</h3>
             <p class="text-gray-600 mb-6 leading-relaxed">
-              Plano alimentar personalizado integrado ao seu treino. Cardápios semanais, 
-              lista de compras e acompanhamento nutricional completo.
+              Um programa completo para uma transformação real e duradoura. Ideal para quem está comprometido com a mudança de vida.
             </p>
 
             <!-- Features -->
             <ul class="space-y-3 mb-8">
               <li class="flex items-center space-x-3">
                 <i class="fas fa-check text-green-500"></i>
-                <span class="text-gray-600">Cardápio personalizado</span>
+                <span class="text-gray-600">Todos os benefícios do plano trimestral</span>
               </li>
               <li class="flex items-center space-x-3">
                 <i class="fas fa-check text-green-500"></i>
-                <span class="text-gray-600">Lista de compras</span>
+                <span class="text-gray-600">2 avaliações posturais</span>
               </li>
               <li class="flex items-center space-x-3">
                 <i class="fas fa-check text-green-500"></i>
-                <span class="text-gray-600">Receitas saudáveis</span>
-              </li>
-              <li class="flex items-center space-x-3">
-                <i class="fas fa-check text-green-500"></i>
-                <span class="text-gray-600">Acompanhamento semanal</span>
+                <span class="text-gray-600">Suporte prioritário</span>
               </li>
             </ul>
 
             <!-- Price -->
             <div class="mb-6">
-              <span class="text-3xl font-bold text-gray-800">R$ 299</span>
-              <span class="text-gray-600">/mês</span>
+              <span class="text-3xl font-bold text-gray-800">R$ 350</span>
+              <span class="text-gray-600">/4 meses</span>
             </div>
 
             <!-- CTA -->
@@ -175,25 +160,24 @@
         </div>
       </div>
 
-      <!-- Special Offer -->
-      <div class="mt-16 bg-gradient-to-r from-green-500 to-blue-500 rounded-2xl p-8 text-center text-white" data-aos="fade-up" data-aos-delay="400">
-        <h3 class="text-3xl font-bold mb-4">Oferta Especial - Combo Completo</h3>
+      <!-- Anual Plan -->
+      <div class="mt-16 bg-gradient-to-r from-gray-800 to-black rounded-2xl p-8 text-center text-white" data-aos="fade-up" data-aos-delay="400">
+        <h3 class="text-3xl font-bold mb-4">Oferta Especial - Plano Anual</h3>
         <p class="text-xl mb-6 opacity-90">
-          Treinamento Presencial + Nutrição Integrada por apenas
+          Compromisso total com sua evolução por um preço imbatível.
         </p>
         <div class="mb-6">
-          <span class="text-2xl line-through opacity-75">R$ 698</span>
-          <span class="text-5xl font-bold ml-4">R$ 599</span>
-          <span class="text-xl">/mês</span>
+          <span class="text-5xl font-bold ml-4">R$ 1000</span>
+          <span class="text-xl">/ano</span>
         </div>
         <p class="text-lg mb-8 opacity-90">
-          Economize R$ 99 por mês! Vagas limitadas - apenas 10 alunos por mês.
+          Economia e resultados garantidos o ano todo. Vagas limitadas!
         </p>
         <a 
           href="#contato" 
           class="bg-white text-green-500 hover:bg-gray-100 font-semibold py-4 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl inline-flex items-center space-x-2"
         >
-          <span>Quero o Combo Completo!</span>
+          <span>Quero o Plano Anual!</span>
           <i class="fas fa-arrow-right"></i>
         </a>
       </div>
