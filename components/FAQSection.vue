@@ -67,31 +67,7 @@
             </div>
           </div>
 
-          <!-- FAQ 3 -->
-          <div class="bg-gray-50 rounded-2xl overflow-hidden" data-aos="fade-up" data-aos-delay="300">
-            <button 
-              @click="toggleFAQ(2)"
-              class="w-full px-8 py-6 text-left flex items-center justify-between hover:bg-gray-100 transition-colors"
-            >
-              <h3 class="text-lg font-semibold text-gray-800">
-                Como funciona o acompanhamento nutricional?
-              </h3>
-              <i 
-                class="fas fa-chevron-down text-green-500 transition-transform duration-300"
-                :class="{ 'rotate-180': openFAQ === 2 }"
-              ></i>
-            </button>
-            <div 
-              v-show="openFAQ === 2"
-              class="px-8 pb-6 text-gray-600 leading-relaxed"
-            >
-              <p>
-                Crio um plano alimentar 100% personalizado baseado nas suas preferências, restrições e objetivos. 
-                Você recebe cardápios semanais, lista de compras, receitas saudáveis e orientações sobre horários das refeições. 
-                Fazemos ajustes semanais conforme sua evolução e sempre que necessário.
-              </p>
-            </div>
-          </div>
+
 
           <!-- FAQ 4 -->
           <div class="bg-gray-50 rounded-2xl overflow-hidden" data-aos="fade-up" data-aos-delay="400">

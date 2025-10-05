@@ -17,7 +17,7 @@
           <p class="text-gray-300 mb-6 max-w-md leading-relaxed">
             Especialista em transformação corporal com mais de 8 anos de experiência. 
             Ajudo pessoas comuns a alcançarem resultados extraordinários através de 
-            treinamento personalizado e acompanhamento nutricional.
+            treinamento personalizado.
           </p>
           
           <!-- Social Media -->

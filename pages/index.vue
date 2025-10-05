@@ -167,7 +167,7 @@ useHead({
         "offers": {
           "@type": "Offer",
           "name": "Treinamento Personalizado com Victor Emanuel",
-          "description": "Treinamento personalizado com acompanhamento nutricional",
+          "description": "Treinamento personalizado",
           "priceCurrency": "BRL",
           "price": "199",
           "priceValidUntil": "2024-12-31"
