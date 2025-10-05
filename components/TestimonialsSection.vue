@@ -30,8 +30,7 @@
 
           <!-- Quote -->
             <blockquote class="text-gray-700 text-lg leading-relaxed mb-6">
-              "Graças ao Victor Emanuel, mudei completamente minha vida! Em 3 meses perdi 15kg e ganhei muito mais disposição. 
-              O acompanhamento é incrível e ele sempre está disponível para tirar dúvidas. Recomendo de olhos fechados!"
+              "Um incrível que todo mundo ficar perguntando quem é meu personal é um que estou fazendo. As meninas aqui falou depois que você começou um treino com personal mudou muito. Sou muito grata a você de verdade."
             </blockquote>
 
           <!-- Author -->
@@ -42,8 +41,7 @@
               class="w-12 h-12 rounded-full object-cover mr-4"
             >
             <div>
-              <div class="font-semibold text-gray-800">Maria Silva</div>
-              <div class="text-gray-600 text-sm">32 anos, Empresária</div>
+              <div class="font-semibold text-gray-800">Aluna</div>
             </div>
           </div>
         </div>
@@ -64,7 +62,7 @@
 
           <!-- Quote -->
           <blockquote class="text-gray-700 text-lg leading-relaxed mb-6">
-            "Victor Emanuel é um profissional excepcional! Consegui ganhar 8kg de massa muscular em 4 meses. Muito dedicado!"
+            "Estou sentindo a evolução e até me surpreendo de que mesmo às vezes falhando um dia na semana e ter faltado uma semana inteira ao longo desse primeiro mês, tenho tido resultados visíveis."
           </blockquote>
 
           <!-- Author -->
@@ -75,8 +73,7 @@
               class="w-12 h-12 rounded-full object-cover mr-4"
             >
             <div>
-              <div class="font-semibold text-gray-800">João Santos</div>
-              <div class="text-gray-600 text-sm">28 anos, Programador</div>
+              <div class="font-semibold text-gray-800">Aluno</div>
             </div>
           </div>
         </div>
@@ -97,8 +94,7 @@
 
           <!-- Quote -->
           <blockquote class="text-gray-700 text-lg leading-relaxed mb-6">
-            "O Victor Emanuel é muito mais que um personal trainer, é um verdadeiro mentor! Me ajudou não só com os exercícios, 
-            mas também com a alimentação e motivação. Perdi 22kg e nunca me senti tão bem na minha vida!"
+            "Eu já treinei com consultoria on-line e com personal presencial, mas não tinha orientação de amplitude e controle da execução. Era só peso e fazia de qualquer jeito."
           </blockquote>
 
           <!-- Author -->
@@ -109,8 +105,7 @@
               class="w-12 h-12 rounded-full object-cover mr-4"
             >
             <div>
-              <div class="font-semibold text-gray-800">Ana Costa</div>
-              <div class="text-gray-600 text-sm">45 anos, Professora</div>
+              <div class="font-semibold text-gray-800">Aluna</div>
             </div>
           </div>
         </div>
@@ -131,8 +126,7 @@
 
           <!-- Quote -->
           <blockquote class="text-gray-700 text-lg leading-relaxed mb-6">
-            "Profissional excepcional! O Victor Emanuel conseguiu me fazer gostar de exercitar. Os treinos são desafiadores mas divertidos. 
-            Em 5 meses consegui a definição que sempre sonhei. Super recomendo!"
+            "Boa tarde! Estou bem e você? Olha eu estava até falando com uma amiga minha hoje pela manhã não tem nem um mês direito e eu particularmente já senti muita diferença logo na primeira semana o meu joelho já parou de doer da forma que estava doendo e eu também senti que o meu quadríceps está criando forma não sei se é coisa da minha cabeça mas eu notei."
           </blockquote>
 
           <!-- Author -->
@@ -143,8 +137,7 @@
               class="w-12 h-12 rounded-full object-cover mr-4"
             >
             <div>
-              <div class="font-semibold text-gray-800">Pedro Lima</div>
-              <div class="text-gray-600 text-sm">35 anos, Advogado</div>
+              <div class="font-semibold text-gray-800">Aluna</div>
             </div>
           </div>
         </div>
@@ -165,8 +158,7 @@
 
           <!-- Quote -->
           <blockquote class="text-gray-700 text-lg leading-relaxed mb-6">
-            "Depois de tentar várias dietas sem sucesso, o Victor Emanuel me mostrou que o segredo está no equilíbrio entre treino e alimentação. 
-            Perdi 18kg de forma saudável e sustentável. Gratidão eterna!"
+            "Oi Victor, bom dia. Tudo bem e contigo??? Comecei sim, topppp o treino. Sai da academia morrendo kkk."
           </blockquote>
 
           <!-- Author -->
@@ -177,8 +169,7 @@
               class="w-12 h-12 rounded-full object-cover mr-4"
             >
             <div>
-              <div class="font-semibold text-gray-800">Carla Mendes</div>
-              <div class="text-gray-600 text-sm">38 anos, Médica</div>
+              <div class="font-semibold text-gray-800">Aluno</div>
             </div>
           </div>
         </div>
