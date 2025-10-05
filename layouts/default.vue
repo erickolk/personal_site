@@ -14,12 +14,12 @@
 
           <!-- Desktop Navigation -->
           <div class="hidden md:flex items-center space-x-8">
-            <a href="#inicio" class="text-gray-700 hover:text-green-500 transition-colors font-medium">Início</a>
-            <a href="#sobre" class="text-gray-700 hover:text-green-500 transition-colors font-medium">Sobre</a>
-            <a href="#servicos" class="text-gray-700 hover:text-green-500 transition-colors font-medium">Serviços</a>
-            <a href="#resultados" class="text-gray-700 hover:text-green-500 transition-colors font-medium">Resultados</a>
-            <a href="#depoimentos" class="text-gray-700 hover:text-green-500 transition-colors font-medium">Depoimentos</a>
-            <a href="#contato" class="btn-primary">Contato</a>
+            <a href="#inicio" @click.prevent="scrollToSection('inicio')" class="text-gray-700 hover:text-green-500 transition-colors font-medium">Início</a>
+            <a href="#sobre" @click.prevent="scrollToSection('sobre')" class="text-gray-700 hover:text-green-500 transition-colors font-medium">Sobre</a>
+            <a href="#servicos" @click.prevent="scrollToSection('servicos')" class="text-gray-700 hover:text-green-500 transition-colors font-medium">Serviços</a>
+            <a href="#resultados" @click.prevent="scrollToSection('resultados')" class="text-gray-700 hover:text-green-500 transition-colors font-medium">Resultados</a>
+            <a href="#depoimentos" @click.prevent="scrollToSection('depoimentos')" class="text-gray-700 hover:text-green-500 transition-colors font-medium">Depoimentos</a>
+            <a href="#contato" @click.prevent="scrollToSection('contato')" class="btn-primary">Contato</a>
           </div>
 
           <!-- Mobile Menu Button -->
@@ -37,12 +37,12 @@
           class="md:hidden py-4 border-t border-gray-100"
         >
           <div class="flex flex-col space-y-4">
-            <a href="#inicio" @click="closeMobileMenu" class="text-gray-700 hover:text-green-500 transition-colors font-medium">Início</a>
-            <a href="#sobre" @click="closeMobileMenu" class="text-gray-700 hover:text-green-500 transition-colors font-medium">Sobre</a>
-            <a href="#servicos" @click="closeMobileMenu" class="text-gray-700 hover:text-green-500 transition-colors font-medium">Serviços</a>
-            <a href="#resultados" @click="closeMobileMenu" class="text-gray-700 hover:text-green-500 transition-colors font-medium">Resultados</a>
-            <a href="#depoimentos" @click="closeMobileMenu" class="text-gray-700 hover:text-green-500 transition-colors font-medium">Depoimentos</a>
-            <a href="#contato" @click="closeMobileMenu" class="btn-primary w-full text-center">Contato</a>
+            <a href="#inicio" @click.prevent="scrollToSection('inicio', true)" class="text-gray-700 hover:text-green-500 transition-colors font-medium">Início</a>
+            <a href="#sobre" @click.prevent="scrollToSection('sobre', true)" class="text-gray-700 hover:text-green-500 transition-colors font-medium">Sobre</a>
+            <a href="#servicos" @click.prevent="scrollToSection('servicos', true)" class="text-gray-700 hover:text-green-500 transition-colors font-medium">Serviços</a>
+            <a href="#resultados" @click.prevent="scrollToSection('resultados', true)" class="text-gray-700 hover:text-green-500 transition-colors font-medium">Resultados</a>
+            <a href="#depoimentos" @click.prevent="scrollToSection('depoimentos', true)" class="text-gray-700 hover:text-green-500 transition-colors font-medium">Depoimentos</a>
+            <a href="#contato" @click.prevent="scrollToSection('contato', true)" class="btn-primary w-full text-center">Contato</a>
           </div>
         </div>
       </div>
@@ -73,6 +73,20 @@ const toggleMobileMenu = () => {
 
 const closeMobileMenu = () => {
   mobileMenuOpen.value = false
+}
+
+const scrollToSection = (sectionId, isMobile = false) => {
+  if (isMobile) {
+    closeMobileMenu()
+  }
+  
+  const section = document.getElementById(sectionId)
+  if (section) {
+    const yOffset = -80; // Altura do header para não sobrepor a seção
+    const y = section.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+    window.scrollTo({top: y, behavior: 'smooth'});
+  }
 }
 
 // Close mobile menu when clicking outside
