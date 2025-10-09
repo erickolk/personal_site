@@ -11,7 +11,7 @@
               class="w-full h-96 lg:h-[500px] object-cover rounded-2xl shadow-2xl"
             >
             <!-- Floating Stats -->
-            <div class="absolute -top-6 -right-6 bg-white p-6 rounded-xl shadow-lg">
+            <div class="absolute -top-6 -right-6 bg-white p-6 rounded-xl shadow-lg ">
               <div class="text-center">
                 <div class="text-3xl font-bold text-orange-500">5+</div>
                 <div class="text-sm text-gray-600">Anos de<br>Experiência</div>
