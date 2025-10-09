@@ -12,7 +12,7 @@ const resultados = ref([
     id: 1,
     imagem: yasminResultado,
     nome: 'Yasmin',
-    descricao: 'Ganhou 6 kilos de massa muscular e teve umento da definição.',
+    descricao: 'Ganhou 6 kilos de massa muscular e teve aumento significativo na definição.',
     pesoInicial: '54kg',
     pesoAtual: '59kg',
     tempo: 'Não informado',

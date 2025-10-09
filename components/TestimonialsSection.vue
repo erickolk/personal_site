@@ -36,7 +36,7 @@
           <!-- Author -->
           <div class="flex items-center">
             <img 
-              src="~/assets/images/feedbacks/IMG-20251005-WA0058.jpg" 
+              src="~/assets/images/feedbacks/avatar1.png" 
               alt="Depoimento de cliente"
               class="w-12 h-12 rounded-full object-cover mr-4"
             >
@@ -68,7 +68,7 @@
           <!-- Author -->
           <div class="flex items-center">
             <img 
-              src="~/assets/images/feedbacks/IMG-20251005-WA0059.jpg" 
+              src="~/assets/images/feedbacks/avatar2.png" 
               alt="Depoimento de cliente"
               class="w-12 h-12 rounded-full object-cover mr-4"
             >
@@ -100,7 +100,7 @@
           <!-- Author -->
           <div class="flex items-center">
             <img 
-              src="~/assets/images/feedbacks/IMG-20251005-WA0060.jpg" 
+              src="~/assets/images/feedbacks/avatar3.png" 
               alt="Depoimento de cliente"
               class="w-12 h-12 rounded-full object-cover mr-4"
             >
@@ -132,7 +132,7 @@
           <!-- Author -->
           <div class="flex items-center">
             <img 
-              src="~/assets/images/feedbacks/IMG-20251005-WA0061.jpg" 
+              src="~/assets/images/feedbacks/avatar1.png" 
               alt="Depoimento de cliente"
               class="w-12 h-12 rounded-full object-cover mr-4"
             >
@@ -164,7 +164,7 @@
           <!-- Author -->
           <div class="flex items-center">
             <img 
-              src="~/assets/images/feedbacks/IMG-20251005-WA0063.jpg" 
+              src="~/assets/images/feedbacks/avatar2.png" 
               alt="Depoimento de cliente"
               class="w-12 h-12 rounded-full object-cover mr-4"
             >
