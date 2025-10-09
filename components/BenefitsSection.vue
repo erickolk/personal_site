@@ -3,7 +3,7 @@
     <div class="container-custom">
       <!-- Section Header -->
       <div class="text-center mb-16" data-aos="fade-up" data-aos-duration="1000">
-        <span class="text-green-500 font-semibold text-lg">Por Que Escolher</span>
+        <span class="text-orange-500 font-semibold text-lg">Por Que Escolher</span>
         <h2 class="text-4xl lg:text-5xl font-bold text-gray-800 mt-2 mb-6">
           Por Que Sou Sua <span class="text-gradient">Melhor Escolha</span>
         </h2>
@@ -16,7 +16,7 @@
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
         <!-- Benefit 1 -->
         <div class="bg-white rounded-2xl p-8 text-center card-hover" data-aos="fade-up" data-aos-delay="100">
-          <div class="w-16 h-16 bg-gradient-to-r from-green-500 to-green-600 rounded-xl flex items-center justify-center mx-auto mb-6">
+          <div class="w-16 h-16 bg-gradient-to-r from-orange-500 to-black rounded-xl flex items-center justify-center mx-auto mb-6">
             <i class="fas fa-user-cog text-white text-2xl"></i>
           </div>
           <h3 class="text-xl font-bold text-gray-800 mb-4">100% Personalizado</h3>
@@ -28,7 +28,7 @@
 
         <!-- Benefit 2 -->
         <div class="bg-white rounded-2xl p-8 text-center card-hover" data-aos="fade-up" data-aos-delay="200">
-          <div class="w-16 h-16 bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mx-auto mb-6">
+          <div class="w-16 h-16 bg-gradient-to-r from-orange-500 to-black rounded-xl flex items-center justify-center mx-auto mb-6">
             <i class="fas fa-clock text-white text-2xl"></i>
           </div>
           <h3 class="text-xl font-bold text-gray-800 mb-4">Suporte 24/7</h3>
@@ -40,7 +40,7 @@
 
         <!-- Benefit 3 -->
         <div class="bg-white rounded-2xl p-8 text-center card-hover" data-aos="fade-up" data-aos-delay="300">
-          <div class="w-16 h-16 bg-gradient-to-r from-purple-500 to-purple-600 rounded-xl flex items-center justify-center mx-auto mb-6">
+          <div class="w-16 h-16 bg-gradient-to-r from-orange-500 to-black rounded-xl flex items-center justify-center mx-auto mb-6">
             <i class="fas fa-trophy text-white text-2xl"></i>
           </div>
           <h3 class="text-xl font-bold text-gray-800 mb-4">Resultados Garantidos</h3>
@@ -52,7 +52,7 @@
 
         <!-- Benefit 4 -->
         <div class="bg-white rounded-2xl p-8 text-center card-hover" data-aos="fade-up" data-aos-delay="400">
-          <div class="w-16 h-16 bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl flex items-center justify-center mx-auto mb-6">
+          <div class="w-16 h-16 bg-gradient-to-r from-orange-500 to-black rounded-xl flex items-center justify-center mx-auto mb-6">
             <i class="fas fa-graduation-cap text-white text-2xl"></i>
           </div>
           <h3 class="text-xl font-bold text-gray-800 mb-4">Experiência Comprovada</h3>
@@ -64,7 +64,7 @@
 
         <!-- Benefit 5 -->
         <div class="bg-white rounded-2xl p-8 text-center card-hover" data-aos="fade-up" data-aos-delay="500">
-          <div class="w-16 h-16 bg-gradient-to-r from-red-500 to-red-600 rounded-xl flex items-center justify-center mx-auto mb-6">
+          <div class="w-16 h-16 bg-gradient-to-r from-orange-500 to-black rounded-xl flex items-center justify-center mx-auto mb-6">
             <i class="fas fa-heart text-white text-2xl"></i>
           </div>
           <h3 class="text-xl font-bold text-gray-800 mb-4">Cuidado Integral</h3>
@@ -76,7 +76,7 @@
 
         <!-- Benefit 6 -->
         <div class="bg-white rounded-2xl p-8 text-center card-hover" data-aos="fade-up" data-aos-delay="600">
-          <div class="w-16 h-16 bg-gradient-to-r from-teal-500 to-teal-600 rounded-xl flex items-center justify-center mx-auto mb-6">
+          <div class="w-16 h-16 bg-gradient-to-r from-orange-500 to-black rounded-xl flex items-center justify-center mx-auto mb-6">
             <i class="fas fa-mobile-alt text-white text-2xl"></i>
           </div>
           <h3 class="text-xl font-bold text-gray-800 mb-4">Tecnologia Avançada</h3>
@@ -88,7 +88,7 @@
       </div>
 
       <!-- Urgency Section -->
-      <div class="bg-gradient-to-r from-red-500 to-pink-500 rounded-2xl p-8 text-center text-white mb-16" data-aos="fade-up" data-aos-delay="700">
+      <div class="bg-gradient-to-r from-orange-500 to-black rounded-2xl p-8 text-center text-white mb-16" data-aos="fade-up" data-aos-delay="700">
         <div class="max-w-4xl mx-auto">
           <div class="flex items-center justify-center mb-4">
             <i class="fas fa-exclamation-triangle text-3xl mr-4"></i>
@@ -125,10 +125,9 @@
           <div class="mb-6">
             <div class="text-lg mb-2">Vagas Restantes:</div>
             <div class="flex justify-center items-center space-x-2">
-              <div class="w-4 h-4 bg-red-400 rounded-full"></div>
-              <div class="w-4 h-4 bg-red-400 rounded-full"></div>
-              <div class="w-4 h-4 bg-red-400 rounded-full"></div>
-              <div class="w-4 h-4 bg-white/30 rounded-full"></div>
+              <div class="w-4 h-4 bg-orange-500 rounded-full"></div>
+              <div class="w-4 h-4 bg-orange-500 rounded-full"></div>
+              <div class="w-4 h-4 bg-orange-500 rounded-full"></div>
               <div class="w-4 h-4 bg-white/30 rounded-full"></div>
               <div class="w-4 h-4 bg-white/30 rounded-full"></div>
               <div class="w-4 h-4 bg-white/30 rounded-full"></div>
@@ -141,7 +140,7 @@
 
           <a 
             href="#contato" 
-            class="bg-white text-red-500 hover:bg-gray-100 font-bold py-4 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl inline-flex items-center space-x-2 pulse-green"
+            class="bg-white text-orange-500 hover:bg-gray-100 font-bold py-4 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl inline-flex items-center space-x-2 pulse-orange"
           >
             <span>Garantir Minha Vaga Agora!</span>
             <i class="fas fa-arrow-right"></i>
@@ -152,7 +151,7 @@
       <!-- Guarantee Section -->
       <div class="bg-white rounded-2xl p-8 text-center shadow-lg" data-aos="fade-up" data-aos-delay="800">
         <div class="max-w-3xl mx-auto">
-          <div class="w-20 h-20 bg-gradient-to-r from-green-500 to-blue-500 rounded-full flex items-center justify-center mx-auto mb-6">
+          <div class="w-20 h-20 bg-gradient-to-r from-orange-500 to-black rounded-full flex items-center justify-center mx-auto mb-6">
             <i class="fas fa-shield-alt text-white text-3xl"></i>
           </div>
           
@@ -164,23 +163,24 @@
           
           <div class="grid md:grid-cols-3 gap-6 text-center">
             <div>
-              <i class="fas fa-handshake text-green-500 text-2xl mb-3"></i>
+              <i class="fas fa-handshake text-orange-500 text-2xl mb-3"></i>
               <div class="font-semibold text-gray-800">Compromisso Total</div>
               <div class="text-gray-600 text-sm">Com seus resultados</div>
             </div>
             <div>
-              <i class="fas fa-money-bill-wave text-green-500 text-2xl mb-3"></i>
+              <i class="fas fa-money-bill-wave text-orange-500 text-2xl mb-3"></i>
               <div class="font-semibold text-gray-800">Dinheiro de Volta</div>
               <div class="text-gray-600 text-sm">Se não ficar satisfeito</div>
             </div>
             <div>
-              <i class="fas fa-clock text-green-500 text-2xl mb-3"></i>
+              <i class="fas fa-clock text-orange-500 text-2xl mb-3"></i>
               <div class="font-semibold text-gray-800">30 Dias</div>
               <div class="text-gray-600 text-sm">Para testar sem riscos</div>
             </div>
           </div>
         </div>
       </div>
+      
     </div>
   </section>
 </template>

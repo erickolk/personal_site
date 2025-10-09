@@ -3,9 +3,9 @@
     <div class="container-custom">
       <!-- Section Header -->
       <div class="text-center mb-16" data-aos="fade-up" data-aos-duration="1000">
-        <span class="text-green-500 font-semibold text-lg">Meus Serviços</span>
+        <span class="text-orange-500 font-semibold text-lg">Meus Serviços</span>
         <h2 class="text-4xl lg:text-5xl font-bold text-gray-800 mt-2 mb-6">
-          Planos de <span class="text-gradient">Treinamento</span>
+          Soluções Completas para <span class="text-gradient">Seu Objetivo</span>
         </h2>
         <p class="text-xl text-gray-600 max-w-3xl mx-auto">
           Escolha o plano ideal para sua jornada de transformação. Todos incluem acompanhamento personalizado e suporte completo.
@@ -18,7 +18,7 @@
         <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100" data-aos="fade-up" data-aos-delay="100">
           <div class="p-8">
             <!-- Icon -->
-            <div class="w-16 h-16 bg-gradient-to-r from-green-500 to-green-600 rounded-xl flex items-center justify-center mb-6">
+            <div class="w-16 h-16 bg-gradient-to-r from-orange-500 to-black rounded-xl flex items-center justify-center mb-6">
               <i class="fas fa-calendar-alt text-white text-2xl"></i>
             </div>
             
@@ -31,15 +31,15 @@
             <!-- Features -->
             <ul class="space-y-3 mb-8">
               <li class="flex items-center space-x-3">
-                <i class="fas fa-check text-green-500"></i>
+                <i class="fas fa-check text-orange-500"></i>
                 <span class="text-gray-600">Treinos 100% personalizados</span>
               </li>
               <li class="flex items-center space-x-3">
-                <i class="fas fa-check text-green-500"></i>
+                <i class="fas fa-check text-orange-500"></i>
                 <span class="text-gray-600">Acompanhamento quinzenal</span>
               </li>
               <li class="flex items-center space-x-3">
-                <i class="fas fa-check text-green-500"></i>
+                <i class="fas fa-check text-orange-500"></i>
                 <span class="text-gray-600">Suporte via WhatsApp</span>
               </li>
             </ul>
@@ -61,17 +61,17 @@
         </div>
 
         <!-- Trimestral Plan -->
-        <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-2 border-green-500 relative" data-aos="fade-up" data-aos-delay="200">
+        <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-2 border-orange-500 relative" data-aos="fade-up" data-aos-delay="200">
           <!-- Popular Badge -->
           <div class="absolute -top-4 left-1/2 transform -translate-x-1/2">
-            <span class="bg-green-500 text-white px-6 py-2 rounded-full text-sm font-semibold">
+            <span class="bg-orange-500 text-white px-6 py-2 rounded-full text-sm font-semibold">
               Mais Popular
             </span>
           </div>
           
           <div class="p-8">
             <!-- Icon -->
-            <div class="w-16 h-16 bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mb-6">
+            <div class="w-16 h-16 bg-gradient-to-r from-orange-500 to-black rounded-xl flex items-center justify-center mb-6">
               <i class="fas fa-calendar-check text-white text-2xl"></i>
             </div>
             
@@ -84,15 +84,15 @@
             <!-- Features -->
             <ul class="space-y-3 mb-8">
               <li class="flex items-center space-x-3">
-                <i class="fas fa-check text-green-500"></i>
+                <i class="fas fa-check text-orange-500"></i>
                 <span class="text-gray-600">Todos os benefícios do plano bimestral</span>
               </li>
               <li class="flex items-center space-x-3">
-                <i class="fas fa-check text-green-500"></i>
+                <i class="fas fa-check text-orange-500"></i>
                 <span class="text-gray-600">Avaliação postural inicial</span>
               </li>
               <li class="flex items-center space-x-3">
-                <i class="fas fa-check text-green-500"></i>
+                <i class="fas fa-check text-orange-500"></i>
                 <span class="text-gray-600">Ajustes mensais no treino</span>
               </li>
             </ul>
@@ -117,7 +117,7 @@
         <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100" data-aos="fade-up" data-aos-delay="300">
           <div class="p-8">
             <!-- Icon -->
-            <div class="w-16 h-16 bg-gradient-to-r from-purple-500 to-purple-600 rounded-xl flex items-center justify-center mb-6">
+            <div class="w-16 h-16 bg-gradient-to-r from-orange-500 to-black rounded-xl flex items-center justify-center mb-6">
               <i class="fas fa-road text-white text-2xl"></i>
             </div>
             
@@ -130,15 +130,15 @@
             <!-- Features -->
             <ul class="space-y-3 mb-8">
               <li class="flex items-center space-x-3">
-                <i class="fas fa-check text-green-500"></i>
+                <i class="fas fa-check text-orange-500"></i>
                 <span class="text-gray-600">Todos os benefícios do plano trimestral</span>
               </li>
               <li class="flex items-center space-x-3">
-                <i class="fas fa-check text-green-500"></i>
+                <i class="fas fa-check text-orange-500"></i>
                 <span class="text-gray-600">2 avaliações posturais</span>
               </li>
               <li class="flex items-center space-x-3">
-                <i class="fas fa-check text-green-500"></i>
+                <i class="fas fa-check text-orange-500"></i>
                 <span class="text-gray-600">Suporte prioritário</span>
               </li>
             </ul>
@@ -175,7 +175,7 @@
         </p>
         <a 
           href="#contato" 
-          class="bg-white text-green-500 hover:bg-gray-100 font-semibold py-4 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl inline-flex items-center space-x-2"
+          class="bg-white text-orange-500 hover:bg-gray-100 font-semibold py-4 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl inline-flex items-center space-x-2"
         >
           <span>Quero o Plano Anual!</span>
           <i class="fas fa-arrow-right"></i>

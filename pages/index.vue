@@ -1,28 +1,25 @@
 <template>
-  <div>
+  <div class="bg-gray-900 text-white">
     <!-- Hero Section -->
-    <HeroSection id="hero" />
+    <HeroSection id="inicio" />
     
     <!-- About Section -->
-    <AboutSection id="about" />
+    <AboutSection id="sobre" />
     
     <!-- Services Section -->
-    <ServicesSection id="services" />
+    <ServicesSection id="servicos" />
     
     <!-- Results Section -->
-    <ResultsSection id="results" />
+    <ResultsSection id="resultados" />
     
     <!-- Testimonials Section -->
-    <TestimonialsSection id="testimonials" />
-    
-    <!-- Benefits Section -->
-    <BenefitsSection id="benefits" />
+    <TestimonialsSection id="depoimentos" />
     
     <!-- FAQ Section -->
     <FAQSection id="faq" />
     
     <!-- Contact Section -->
-    <ContactSection id="contact" />
+    <ContactSection id="contato" />
     
     <!-- Footer Section -->
     <FooterSection />

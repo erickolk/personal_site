@@ -3,7 +3,7 @@
     <div class="container-custom">
       <!-- Section Header -->
       <div class="text-center mb-16" data-aos="fade-up" data-aos-duration="1000">
-        <span class="text-green-500 font-semibold text-lg">Dúvidas Frequentes</span>
+        <span class="text-orange-500 font-semibold text-lg">Dúvidas Frequentes</span>
         <h2 class="text-4xl lg:text-5xl font-bold text-gray-800 mt-2 mb-6">
           Perguntas <span class="text-gradient">Frequentes</span>
         </h2>
@@ -25,7 +25,7 @@
                 Quanto tempo leva para ver os primeiros resultados?
               </h3>
               <i 
-                class="fas fa-chevron-down text-green-500 transition-transform duration-300"
+                class="fas fa-chevron-down text-orange-500 transition-transform duration-300"
                 :class="{ 'rotate-180': openFAQ === 0 }"
               ></i>
             </button>
@@ -51,7 +51,7 @@
                 Preciso ter equipamentos em casa para o treinamento online?
               </h3>
               <i 
-                class="fas fa-chevron-down text-green-500 transition-transform duration-300"
+                class="fas fa-chevron-down text-orange-500 transition-transform duration-300"
                 :class="{ 'rotate-180': openFAQ === 1 }"
               ></i>
             </button>
@@ -79,7 +79,7 @@
                 Posso cancelar o plano a qualquer momento?
               </h3>
               <i 
-                class="fas fa-chevron-down text-green-500 transition-transform duration-300"
+                class="fas fa-chevron-down text-orange-500 transition-transform duration-300"
                 :class="{ 'rotate-180': openFAQ === 3 }"
               ></i>
             </button>
@@ -105,7 +105,7 @@
                 Qual a diferença entre o treinamento online e presencial?
               </h3>
               <i 
-                class="fas fa-chevron-down text-green-500 transition-transform duration-300"
+                class="fas fa-chevron-down text-orange-500 transition-transform duration-300"
                 :class="{ 'rotate-180': openFAQ === 4 }"
               ></i>
             </button>
@@ -132,7 +132,7 @@
                 Tenho limitações físicas, posso fazer o treinamento?
               </h3>
               <i 
-                class="fas fa-chevron-down text-green-500 transition-transform duration-300"
+                class="fas fa-chevron-down text-orange-500 transition-transform duration-300"
                 :class="{ 'rotate-180': openFAQ === 5 }"
               ></i>
             </button>
@@ -158,7 +158,7 @@
                 Como é feito o pagamento e quais são as formas aceitas?
               </h3>
               <i 
-                class="fas fa-chevron-down text-green-500 transition-transform duration-300"
+                class="fas fa-chevron-down text-orange-500 transition-transform duration-300"
                 :class="{ 'rotate-180': openFAQ === 6 }"
               ></i>
             </button>
@@ -177,15 +177,15 @@
       </div>
 
       <!-- Still Have Questions CTA -->
-      <div class="mt-16 text-center bg-gradient-to-r from-green-500 to-blue-500 rounded-2xl p-8 text-white" data-aos="fade-up" data-aos-delay="800">
+      <div class="mt-16 text-center bg-gradient-to-r from-orange-500 to-black rounded-2xl p-8 text-white" data-aos="fade-up" data-aos-delay="800">
         <h3 class="text-3xl font-bold mb-4">Ainda tem dúvidas?</h3>
         <p class="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
           Não encontrou a resposta que procurava? Entre em contato comigo pelo WhatsApp e tire todas as suas dúvidas!
         </p>
         <a 
-          href="https://wa.me/5511999999999?text=Olá Victor! Tenho algumas dúvidas sobre o treinamento personalizado." 
+          href="https://wa.me/5582981539768?text=Olá! Tenho algumas dúvidas sobre o treinamento personalizado do Team Victor." 
           target="_blank"
-          class="bg-white text-green-500 hover:bg-gray-100 font-semibold py-4 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl inline-flex items-center space-x-2"
+          class="bg-white text-orange-500 hover:bg-gray-100 font-semibold py-4 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl inline-flex items-center space-x-2"
         >
           <i class="fab fa-whatsapp text-xl"></i>
           <span>Tirar Dúvidas no WhatsApp</span>

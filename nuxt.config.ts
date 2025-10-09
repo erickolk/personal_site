@@ -9,7 +9,6 @@ export default defineNuxtConfig({
   
   // SEO Configuration
   app: {
-    baseURL: '/personal_site/',
     head: {
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
@@ -47,11 +46,7 @@ export default defineNuxtConfig({
     '~/assets/css/main.css'
   ],
 
-  // Nitro Configuration for better performance
-  nitro: {
-    compressPublicAssets: true,
-    preset: 'github_pages'
-  },
+
 
   // Runtime Config
   runtimeConfig: {

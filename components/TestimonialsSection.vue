@@ -3,9 +3,9 @@
     <div class="container-custom">
       <!-- Section Header -->
       <div class="text-center mb-16" data-aos="fade-up" data-aos-duration="1000">
-        <span class="text-green-500 font-semibold text-lg">Depoimentos</span>
+        <span class="text-orange-500 font-semibold text-lg">Depoimentos</span>
         <h2 class="text-4xl lg:text-5xl font-bold text-gray-800 mt-2 mb-6">
-          O Que Meus <span class="text-gradient">Alunos Dizem</span>
+          O Que os Alunos do <span class="text-gradient">Team Victor</span> Dizem
         </h2>
         <p class="text-xl text-gray-600 max-w-3xl mx-auto">
           A satisfação dos meus alunos é minha maior recompensa. Veja o que eles têm a dizer sobre nossa jornada juntos.
@@ -176,7 +176,7 @@
       </div>
 
       <!-- Overall Rating -->
-      <div class="mt-16 text-center bg-gradient-to-r from-green-500 to-blue-500 rounded-2xl p-8 text-white" data-aos="fade-up" data-aos-delay="700">
+      <div class="mt-16 text-center bg-gradient-to-r from-orange-500 to-black rounded-2xl p-8 text-white" data-aos="fade-up" data-aos-delay="700">
         <div class="max-w-4xl mx-auto">
           <h3 class="text-3xl font-bold mb-4">Avaliação Geral dos Alunos</h3>
           

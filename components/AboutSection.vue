@@ -13,13 +13,13 @@
             <!-- Floating Stats -->
             <div class="absolute -top-6 -right-6 bg-white p-6 rounded-xl shadow-lg">
               <div class="text-center">
-                <div class="text-3xl font-bold text-green-500">5+</div>
+                <div class="text-3xl font-bold text-orange-500">5+</div>
                 <div class="text-sm text-gray-600">Anos de<br>Experiência</div>
               </div>
             </div>
             <div class="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
               <div class="text-center">
-                <div class="text-3xl font-bold text-blue-500">200+</div>
+                <div class="text-3xl font-bold text-black">200+</div>
                 <div class="text-sm text-gray-600">Alunos<br>Transformados</div>
               </div>
             </div>
@@ -29,10 +29,10 @@
         <!-- Content -->
         <div class="order-1 lg:order-2" data-aos="fade-left" data-aos-duration="1000">
           <div class="mb-6">
-            <span class="text-green-500 font-semibold text-lg">Conheça seu treinador</span>
+            <span class="text-orange-500 font-semibold text-lg">Conheça seu treinador</span>
             <h2 class="text-4xl lg:text-5xl font-bold text-gray-800 mt-2 mb-6">
-              Olá, eu sou 
-              <span class="text-gradient">Victor Emanuel</span>
+              Olá, eu sou o 
+              <span class="text-gradient">Victor Emanuel</span>, líder do Team Victor
             </h2>
           </div>
 
@@ -52,43 +52,43 @@
             <h3 class="text-xl font-semibold text-gray-800 mb-4">Certificações:</h3>
             <div class="grid grid-cols-1 gap-4">
               <div class="flex items-center">
-                <i class="fas fa-certificate text-green-500 mr-3"></i>
+                <i class="fas fa-certificate text-orange-500 mr-3"></i>
                 <span class="text-gray-600">CREF Ativo</span>
               </div>
               <div class="flex items-center">
-                <i class="fas fa-certificate text-green-500 mr-3"></i>
+                <i class="fas fa-certificate text-orange-500 mr-3"></i>
                 <span class="text-gray-600">Imersão em Treinamento de Glúteos: Do Básico ao Avançado - João Franken</span>
               </div>
               <div class="flex items-center">
-                <i class="fas fa-certificate text-green-500 mr-3"></i>
+                <i class="fas fa-certificate text-orange-500 mr-3"></i>
                 <span class="text-gray-600">Biomecânica Aplicada ao Exercício para Hipertrofia Muscular - Rafael Socin</span>
               </div>
               <div class="flex items-center">
-                <i class="fas fa-certificate text-green-500 mr-3"></i>
+                <i class="fas fa-certificate text-orange-500 mr-3"></i>
                 <span class="text-gray-600">MTOR: Metodologia de Treinamento Otimizando Resultados - Maurício Medeiros</span>
               </div>
               <div class="flex items-center">
-                <i class="fas fa-certificate text-green-500 mr-3"></i>
+                <i class="fas fa-certificate text-orange-500 mr-3"></i>
                 <span class="text-gray-600">Clínica Prática dos Principais Exercícios da Musculação para Força e Hipertrofia - Jonato Prestes</span>
               </div>
               <div class="flex items-center">
-                <i class="fas fa-certificate text-green-500 mr-3"></i>
+                <i class="fas fa-certificate text-orange-500 mr-3"></i>
                 <span class="text-gray-600">Montagem e Organização do Treinamento - Thiago Trindade</span>
               </div>
               <div class="flex items-center">
-                <i class="fas fa-certificate text-green-500 mr-3"></i>
+                <i class="fas fa-certificate text-orange-500 mr-3"></i>
                 <span class="text-gray-600">Hipertrofia e Estética para Glúteos - Carlos Garon</span>
               </div>
               <div class="flex items-center">
-                <i class="fas fa-certificate text-green-500 mr-3"></i>
+                <i class="fas fa-certificate text-orange-500 mr-3"></i>
                 <span class="text-gray-600">Quebrando Paradigmas - Walter Krause</span>
               </div>
               <div class="flex items-center">
-                <i class="fas fa-certificate text-green-500 mr-3"></i>
+                <i class="fas fa-certificate text-orange-500 mr-3"></i>
                 <span class="text-gray-600">Periodização na Musculação para Máxima Hipertrofia - Leandro Ribeiro</span>
               </div>
               <div class="flex items-center">
-                <i class="fas fa-certificate text-green-500 mr-3"></i>
+                <i class="fas fa-certificate text-orange-500 mr-3"></i>
                 <span class="text-gray-600">Avaliação Postural - João Franken</span>
               </div>
             </div>
@@ -97,7 +97,7 @@
           <!-- CTA Buttons -->
           <div class="flex flex-col sm:flex-row gap-4">
             <a 
-              href="https://wa.me/5511999999999?text=Olá Victor! Gostaria de saber mais sobre você e seus métodos de treinamento." 
+              href="https://wa.me/5582981539768?text=Olá! Gostaria de saber mais sobre você e os métodos de treinamento do Team Victor." 
               target="_blank"
               class="btn-primary inline-flex items-center justify-center space-x-2"
             >

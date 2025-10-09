@@ -1,100 +1,134 @@
 <template>
-  <div class="min-h-screen bg-white">
-    <!-- Navigation Header -->
-    <nav class="fixed top-0 w-full bg-white/95 backdrop-blur-sm shadow-sm z-50 transition-all duration-300">
-      <div class="container-custom">
-        <div class="flex items-center justify-between py-4">
-          <!-- Logo -->
-          <div class="flex items-center space-x-2">
-            <div class="w-10 h-10 bg-gradient-to-r from-green-500 to-blue-500 rounded-lg flex items-center justify-center">
-              <i class="fas fa-dumbbell text-white text-lg"></i>
-            </div>
-            <span class="text-xl font-bold text-gray-800">FitTransform</span>
-          </div>
+  <div class="bg-black text-white font-sans leading-normal tracking-normal">
+    <!-- Header -->
+    <header :class="['bg-black', 'shadow-md', 'sticky', 'top-0', 'z-50', 'transition-all', 'duration-300', { 'py-2': !isScrolled, 'py-1': isScrolled }]">
+      <div class="container mx-auto flex items-center justify-between p-4">
+        <!-- Logo -->
+        <div class="flex-shrink-0">
+          <a href="#">
+            <img src="~/assets/images/logos/logo.png" alt="Team Victor Logo" class="h-10" />
+          </a>
+        </div>
 
-          <!-- Desktop Navigation -->
-          <div class="hidden md:flex items-center space-x-8">
-            <a href="#inicio" @click.prevent="scrollToSection('inicio')" class="text-gray-700 hover:text-green-500 transition-colors font-medium">Início</a>
-            <a href="#sobre" @click.prevent="scrollToSection('sobre')" class="text-gray-700 hover:text-green-500 transition-colors font-medium">Sobre</a>
-            <a href="#servicos" @click.prevent="scrollToSection('servicos')" class="text-gray-700 hover:text-green-500 transition-colors font-medium">Serviços</a>
-            <a href="#resultados" @click.prevent="scrollToSection('resultados')" class="text-gray-700 hover:text-green-500 transition-colors font-medium">Resultados</a>
-            <a href="#depoimentos" @click.prevent="scrollToSection('depoimentos')" class="text-gray-700 hover:text-green-500 transition-colors font-medium">Depoimentos</a>
-            <a href="#contato" @click.prevent="scrollToSection('contato')" class="btn-primary">Contato</a>
-          </div>
+        <!-- Desktop Menu -->
+        <nav class="hidden md:flex items-center space-x-8">
+          <a v-for="item in menuItems" :key="item.name" :href="item.href" @click.prevent="scrollToSection(item.id)" class="text-white hover:text-orange-500 transition-colors duration-300 font-medium">{{ item.name }}</a>
+        </nav>
 
-          <!-- Mobile Menu Button -->
-          <button 
-            @click="toggleMobileMenu" 
-            class="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors"
-          >
-            <i class="fas fa-bars text-gray-700 text-xl"></i>
+        <!-- Mobile Menu Button -->
+        <div class="md:hidden">
+          <button @click="isMenuOpen = !isMenuOpen" class="text-white focus:outline-none">
+            <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
           </button>
         </div>
-
-        <!-- Mobile Navigation -->
-        <div 
-          v-show="mobileMenuOpen" 
-          class="md:hidden py-4 border-t border-gray-100"
-        >
-          <div class="flex flex-col space-y-4">
-            <a href="#inicio" @click.prevent="scrollToSection('inicio', true)" class="text-gray-700 hover:text-green-500 transition-colors font-medium">Início</a>
-            <a href="#sobre" @click.prevent="scrollToSection('sobre', true)" class="text-gray-700 hover:text-green-500 transition-colors font-medium">Sobre</a>
-            <a href="#servicos" @click.prevent="scrollToSection('servicos', true)" class="text-gray-700 hover:text-green-500 transition-colors font-medium">Serviços</a>
-            <a href="#resultados" @click.prevent="scrollToSection('resultados', true)" class="text-gray-700 hover:text-green-500 transition-colors font-medium">Resultados</a>
-            <a href="#depoimentos" @click.prevent="scrollToSection('depoimentos', true)" class="text-gray-700 hover:text-green-500 transition-colors font-medium">Depoimentos</a>
-            <a href="#contato" @click.prevent="scrollToSection('contato', true)" class="btn-primary w-full text-center">Contato</a>
-          </div>
-        </div>
       </div>
-    </nav>
+
+      <!-- Mobile Navigation -->
+      <transition name="slide-fade">
+        <div v-if="isMenuOpen" class="md:hidden bg-black p-4">
+          <nav class="flex flex-col space-y-4">
+            <a v-for="item in menuItems" :key="item.name" :href="item.href" @click.prevent="closeMenuAndScroll(item.id)" class="text-white hover:text-orange-500 transition-colors duration-300 font-medium text-center">{{ item.name }}</a>
+          </nav>
+        </div>
+      </transition>
+    </header>
 
     <!-- Main Content -->
-    <main class="pt-20">
+    <main>
       <slot />
     </main>
 
-    <!-- WhatsApp Floating Button -->
-    <a 
-      href="https://wa.me/5511999999999?text=Olá! Gostaria de saber mais sobre o treinamento personalizado." 
-      target="_blank"
-      class="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110 z-50 pulse-green"
-    >
-      <i class="fab fa-whatsapp text-2xl"></i>
-    </a>
+    <!-- Back to Top Button -->
+    <transition name="fade">
+      <button v-if="showBackToTop" @click="scrollToTop" class="fixed bottom-8 right-8 bg-orange-500 hover:bg-orange-600 text-white font-bold p-3 rounded-full shadow-lg transition-all duration-300 focus:outline-none">
+        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path>
+        </svg>
+      </button>
+    </transition>
   </div>
 </template>
 
 <script setup>
-const mobileMenuOpen = ref(false)
+import { ref, onMounted, onBeforeUnmount } from 'vue'
 
-const toggleMobileMenu = () => {
-  mobileMenuOpen.value = !mobileMenuOpen.value
+const isMenuOpen = ref(false)
+const isScrolled = ref(false)
+const showBackToTop = ref(false)
+
+const menuItems = [
+  { name: 'Início', href: '#inicio', id: 'inicio' },
+  { name: 'Sobre', href: '#sobre', id: 'sobre' },
+  { name: 'Serviços', href: '#servicos', id: 'servicos' },
+  { name: 'Resultados', href: '#resultados', id: 'resultados' },
+  { name: 'Depoimentos', href: '#depoimentos', id: 'depoimentos' },
+  { name: 'Contato', href: '#contato', id: 'contato' },
+]
+
+const handleScroll = () => {
+  isScrolled.value = window.scrollY > 50
+  showBackToTop.value = window.scrollY > 300
 }
 
-const closeMobileMenu = () => {
-  mobileMenuOpen.value = false
-}
+const scrollToSection = (id) => {
+  const element = document.getElementById(id)
+  if (element) {
+    const offset = 80 // Altura do header
+    const bodyRect = document.body.getBoundingClientRect().top
+    const elementRect = element.getBoundingClientRect().top
+    const elementPosition = elementRect - bodyRect
+    const offsetPosition = elementPosition - offset
 
-const scrollToSection = (sectionId, isMobile = false) => {
-  if (isMobile) {
-    closeMobileMenu()
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: 'smooth'
+    })
   }
-  
-  const section = document.getElementById(sectionId)
-  if (section) {
-    const yOffset = -80; // Altura do header para não sobrepor a seção
-    const y = section.getBoundingClientRect().top + window.pageYOffset + yOffset;
-
-    window.scrollTo({top: y, behavior: 'smooth'});
-  }
 }
 
-// Close mobile menu when clicking outside
+const closeMenuAndScroll = (id) => {
+  isMenuOpen.value = false
+  scrollToSection(id)
+}
+
+const scrollToTop = () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' })
+}
+
 onMounted(() => {
-  document.addEventListener('click', (e) => {
-    if (!e.target.closest('nav')) {
-      mobileMenuOpen.value = false
-    }
-  })
+  window.addEventListener('scroll', handleScroll)
+})
+
+onBeforeUnmount(() => {
+  window.removeEventListener('scroll', handleScroll)
 })
 </script>
+
+<style scoped>
+/* Transitions */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.slide-fade-enter-active {
+  transition: all 0.3s ease-out;
+}
+
+.slide-fade-leave-active {
+  transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.slide-fade-enter-from,
+.slide-fade-leave-to {
+  transform: translateY(-20px);
+  opacity: 0;
+}
+</style>

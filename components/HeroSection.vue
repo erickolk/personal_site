@@ -16,8 +16,8 @@
         <!-- Main Title -->
         <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
           Transforme Seu Corpo e 
-          <span class="text-gradient bg-gradient-to-r from-green-400 to-blue-400 bg-clip-text text-transparent">
-            Sua Vida
+          <span class="text-gradient bg-gradient-to-r from-orange-400 to-black bg-clip-text text-transparent">
+          Sua Vida
           </span>
         </h1>
 
@@ -46,7 +46,7 @@
           <a 
             href="https://wa.me/5511999999999?text=Olá! Gostaria de saber mais sobre o treinamento personalizado." 
             target="_blank"
-            class="bg-green-500 hover:bg-green-600 text-white p-3 rounded-full transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-xl"
+            class="bg-orange-500 hover:bg-orange-600 text-white p-3 rounded-full transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-xl"
             title="WhatsApp"
           >
             <i class="fab fa-whatsapp text-xl"></i>
@@ -81,8 +81,8 @@
     </div>
 
     <!-- Floating Elements -->
-    <div class="absolute top-20 left-10 w-20 h-20 bg-green-500/20 rounded-full blur-xl animate-pulse hidden lg:block"></div>
-    <div class="absolute bottom-20 right-10 w-32 h-32 bg-blue-500/20 rounded-full blur-xl animate-pulse hidden lg:block"></div>
+    <div class="absolute top-20 left-10 w-20 h-20 bg-orange-500/20 rounded-full blur-xl animate-pulse hidden lg:block"></div>
+        <div class="absolute bottom-20 right-10 w-32 h-32 bg-black/20 rounded-full blur-xl animate-pulse hidden lg:block"></div>
   </section>
 </template>
 
