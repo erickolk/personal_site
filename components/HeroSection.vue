@@ -44,7 +44,7 @@
           <span class="text-gray-300 text-sm md:text-base">Siga-me nas redes:</span>
           
           <a 
-            href="https://wa.me/5511999999999?text=Olá! Gostaria de saber mais sobre o treinamento personalizado." 
+            href="https://wa.me/5582981539768?text=Olá! Gostaria de saber mais sobre o treinamento personalizado." 
             target="_blank"
             class="bg-orange-500 hover:bg-orange-600 text-white p-3 rounded-full transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-xl"
             title="WhatsApp"
@@ -53,7 +53,7 @@
           </a>
           
           <a 
-            href="https://instagram.com/seuusuario" 
+            href="https://instagram.com/victor_personal10" 
             target="_blank"
             class="bg-pink-500 hover:bg-pink-600 text-white p-3 rounded-full transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-xl"
             title="Instagram"
@@ -62,7 +62,7 @@
           </a>
           
           <a 
-            href="https://tiktok.com/@seuusuario" 
+            href="https://tiktok.com/@emanuell22222" 
             target="_blank"
             class="bg-gray-800 hover:bg-gray-900 text-white p-3 rounded-full transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-xl"
             title="TikTok"

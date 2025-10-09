@@ -6,7 +6,7 @@
         <!-- Logo -->
         <div class="flex-shrink-0">
           <a href="#">
-            <img src="~/assets/images/logos/logo.png" alt="Team Victor Logo" class="h-10" />
+            <a href="#" class="text-2xl font-bold text-white">#TeamVictor</a>
           </a>
         </div>
 

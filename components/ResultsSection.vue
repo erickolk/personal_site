@@ -10,6 +10,15 @@ import yasminResultado from '~/assets/images/resultados/yasmin.jpeg';
 const resultados = ref([
   {
     id: 1,
+    imagem: yasminResultado,
+    nome: 'Yasmin',
+    descricao: 'Ganhou 6 kilos de massa muscular e teve umento da definição.',
+    pesoInicial: '54kg',
+    pesoAtual: '59kg',
+    tempo: 'Não informado',
+  },
+  {
+    id: 3,
     imagem: resultado1,
     nome: 'Maria Aparecida',
     descricao: 'Ganhou 8kg de massa muscular',
@@ -18,7 +27,7 @@ const resultados = ref([
     tempo: '1 ano e 6 meses',
   },
   {
-    id: 2,
+    id: 4,
     imagem: resultado2,
     nome: 'Maria Aparecida',
     descricao: 'Aumentou a definição muscular, e melhorou em 100% a postura!',
@@ -28,30 +37,21 @@ const resultados = ref([
   },
   {
     id: 3,
+    imagem: resultado4,
+    nome: 'Luiza',
+    descricao: 'Ganhou 6kg de massa muscular',
+    pesoInicial: '70kg',
+    pesoAtual: '76kg',
+    tempo: '4 meses',
+  },
+  {
+    id: 5,
     imagem: resultado3,
     nome: 'Rafaela',
     descricao: 'Ganhou 5kg de massa muscular',
     pesoInicial: '52kg',
     pesoAtual: '57kg',
     tempo: '4 meses',
-  },
-  {
-    id: 4,
-    imagem: resultado4,
-    nome: 'Rafaela',
-    descricao: 'Ganhou 5kg de massa muscular',
-    pesoInicial: '52kg',
-    pesoAtual: '57kg',
-    tempo: '4 meses',
-  },
-  {
-    id: 5,
-    imagem: yasminResultado,
-    nome: 'Yasmin',
-    descricao: 'Ganho de 6 kilos de massa muscular e Aumento da definição',
-    pesoInicial: '54kg',
-    pesoAtual: '59kg',
-    tempo: 'Não informado',
   },
 ]);
 </script>
@@ -76,7 +76,7 @@ const resultados = ref([
         <div 
           v-for="(resultado, index) in resultados" 
           :key="resultado.id"
-          class="bg-white rounded-2xl shadow-lg overflow-hidden card-hover" 
+          class="bg-white text-black rounded-2xl shadow-lg overflow-hidden card-hover" 
           data-aos="fade-up" 
           :data-aos-delay="100 * (index + 1)"
         >

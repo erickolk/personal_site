@@ -33,9 +33,7 @@ onMounted(() => {
         <!-- Brand & Description -->
         <div class="lg:col-span-2" data-aos="fade-up" data-aos-delay="100">
           <div class="flex items-center space-x-3 mb-6">
-            <a href="#">
-              <img :src="logo" alt="Team Victor Logo" class="h-12" />
-            </a>
+            <a href="#" class="text-2xl font-bold text-white">#TeamVictor</a>
           </div>
           <p class="text-gray-300 mb-6 max-w-md leading-relaxed">
             Especialista em transformação corporal com mais de 8 anos de experiência. 
