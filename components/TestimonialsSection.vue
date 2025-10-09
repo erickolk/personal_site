@@ -35,13 +35,8 @@
 
           <!-- Author -->
           <div class="flex items-center">
-            <img 
-              src="~/assets/images/feedbacks/avatar1.png" 
-              alt="Depoimento de cliente"
-              class="w-12 h-12 rounded-full object-cover mr-4"
-            >
             <div>
-              <div class="font-semibold text-gray-800">Aluna</div>
+              <div class="font-semibold text-gray-800">Aluna 1</div>
             </div>
           </div>
         </div>
@@ -67,13 +62,8 @@
 
           <!-- Author -->
           <div class="flex items-center">
-            <img 
-              src="~/assets/images/feedbacks/avatar2.png" 
-              alt="Depoimento de cliente"
-              class="w-12 h-12 rounded-full object-cover mr-4"
-            >
             <div>
-              <div class="font-semibold text-gray-800">Aluno</div>
+              <div class="font-semibold text-gray-800">Aluno 2</div>
             </div>
           </div>
         </div>
@@ -99,13 +89,8 @@
 
           <!-- Author -->
           <div class="flex items-center">
-            <img 
-              src="~/assets/images/feedbacks/avatar3.png" 
-              alt="Depoimento de cliente"
-              class="w-12 h-12 rounded-full object-cover mr-4"
-            >
             <div>
-              <div class="font-semibold text-gray-800">Aluna</div>
+              <div class="font-semibold text-gray-800">Aluna 3</div>
             </div>
           </div>
         </div>
@@ -131,13 +116,8 @@
 
           <!-- Author -->
           <div class="flex items-center">
-            <img 
-              src="~/assets/images/feedbacks/avatar1.png" 
-              alt="Depoimento de cliente"
-              class="w-12 h-12 rounded-full object-cover mr-4"
-            >
             <div>
-              <div class="font-semibold text-gray-800">Aluna</div>
+              <div class="font-semibold text-gray-800">Aluna 4</div>
             </div>
           </div>
         </div>
@@ -163,13 +143,8 @@
 
           <!-- Author -->
           <div class="flex items-center">
-            <img 
-              src="~/assets/images/feedbacks/avatar2.png" 
-              alt="Depoimento de cliente"
-              class="w-12 h-12 rounded-full object-cover mr-4"
-            >
             <div>
-              <div class="font-semibold text-gray-800">Aluno</div>
+              <div class="font-semibold text-gray-800">Aluno 5</div>
             </div>
           </div>
         </div>
