@@ -5,9 +5,7 @@
       <div class="container mx-auto flex items-center justify-between p-4">
         <!-- Logo -->
         <div class="flex-shrink-0">
-          <a href="#">
-            <a href="#" class="text-2xl font-bold text-white">#TeamVictor</a>
-          </a>
+          <a href="#" class="text-2xl font-bold text-white"><span class="text-gradient">#TeamVictor</span></a>
         </div>
 
         <!-- Desktop Menu -->

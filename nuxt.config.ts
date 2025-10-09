@@ -9,6 +9,7 @@ export default defineNuxtConfig({
   
   // SEO Configuration
   app: {
+    baseURL: '/personal_site/',
     head: {
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
@@ -25,8 +26,9 @@ export default defineNuxtConfig({
         { name: 'robots', content: 'index, follow' }
       ],
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-        { rel: 'canonical', href: 'https://erickolk.github.io/personal_site/' }
+        { rel: 'icon', type: 'image/x-icon', href: '/assets/favicon/favicon.ico' },
+        { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/assets/favicon/favicon-16x16.png' },
+        { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/assets/favicon/favicon-32x32.png' },
       ]
     }
   },
@@ -45,13 +47,4 @@ export default defineNuxtConfig({
     '@fortawesome/fontawesome-free/css/all.css',
     '~/assets/css/main.css'
   ],
-
-
-
-  // Runtime Config
-  runtimeConfig: {
-    public: {
-      siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://erickolk.github.io/personal_site/'
-    }
-  }
 })
