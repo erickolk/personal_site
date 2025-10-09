@@ -7,6 +7,13 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts'
   ],
   
+  // Static Site Generation Configuration
+  nitro: {
+    prerender: {
+      routes: ['/']
+    }
+  },
+  
   // SEO Configuration
   app: {
     baseURL: '/personal_site/',
