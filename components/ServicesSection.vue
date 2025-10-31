@@ -55,7 +55,8 @@
 
             <!-- CTA -->
             <a 
-              href="#contato" 
+              href="https://wa.me/5582981539768?text=Ol%C3%A1!%20Quero%20o%20Plano%20Mensal.%20Pode%20me%20passar%20os%20pr%C3%B3ximos%20passos%3F" 
+              target="_blank" rel="noopener" 
               class="btn-primary w-full text-center inline-block"
             >
               Quero esse plano!
@@ -100,7 +101,8 @@
 
             <!-- CTA -->
             <a 
-              href="#contato" 
+              href="https://wa.me/5582981539768?text=Ol%C3%A1!%20Quero%20o%20Plano%20Bimestral.%20Pode%20me%20passar%20os%20pr%C3%B3ximos%20passos%3F" 
+              target="_blank" rel="noopener" 
               class="btn-primary w-full text-center inline-block"
             >
               Quero esse plano!
@@ -153,7 +155,8 @@
 
             <!-- CTA -->
             <a 
-              href="#contato" 
+              href="https://wa.me/5582981539768?text=Ol%C3%A1!%20Tenho%20interesse%20no%20Plano%20Trimestral.%20Pode%20me%20passar%20os%20pr%C3%B3ximos%20passos%3F" 
+              target="_blank" rel="noopener" 
               class="btn-primary w-full text-center inline-block"
             >
               Quero esse plano!
@@ -199,7 +202,8 @@
 
             <!-- CTA -->
             <a 
-              href="#contato" 
+              href="https://wa.me/5582981539768?text=Ol%C3%A1!%20Quero%20o%20Plano%20de%204%20Meses.%20Pode%20me%20passar%20os%20pr%C3%B3ximos%20passos%3F" 
+              target="_blank" rel="noopener" 
               class="btn-primary w-full text-center inline-block"
             >
               Quero esse plano!
@@ -222,7 +226,8 @@
           Economia e resultados garantidos o ano todo. Vagas limitadas!
         </p>
         <a 
-          href="#contato" 
+          href="https://wa.me/5582981539768?text=Ol%C3%A1!%20Quero%20o%20Plano%20Anual.%20Pode%20me%20passar%20os%20pr%C3%B3ximos%20passos%3F" 
+          target="_blank" rel="noopener" 
           class="bg-white text-orange-500 hover:bg-gray-100 font-semibold py-4 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl inline-flex items-center space-x-2"
         >
           <span>Quero o Plano Anual!</span>
