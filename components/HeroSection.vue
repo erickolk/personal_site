@@ -5,7 +5,7 @@
       <img 
         :src="hero"
         alt="Treino acompanhado"
-        class="w-full h-full object-cover"
+        class="w-full h-full object-contain object-center"
       >
       <div class="absolute inset-0 bg-black/50"></div>
     </div>
