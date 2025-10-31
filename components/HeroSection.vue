@@ -1,11 +1,16 @@
 <template>
   <section id="inicio" class="relative min-h-screen flex items-center justify-center overflow-hidden">
-    <!-- Background Single Image with Overlay -->
-    <div class="absolute inset-0 z-0">
+    <!-- Background: duplicated image side-by-side with overlay -->
+    <div class="absolute inset-0 z-0 flex flex-col md:flex-row">
       <img 
         :src="hero"
         alt="Treino acompanhado"
-        class="w-full h-full object-cover object-[50%_40%] md:object-[50%_35%]"
+        class="w-full md:w-1/2 h-1/2 md:h-full object-cover object-[30%_40%]"
+      >
+      <img 
+        :src="hero"
+        alt="Treino acompanhado"
+        class="w-full md:w-1/2 h-1/2 md:h-full object-cover object-[70%_40%]"
       >
       <div class="absolute inset-0 bg-black/50"></div>
     </div>
