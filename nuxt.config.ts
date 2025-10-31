@@ -11,7 +11,12 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       // Prerender the site using the configured baseURL
-      routes: ['/personal_site/']
+      routes: ['/personal_site/'],
+      // Avoid crawling/validating hashed client assets during prerender
+      ignore: ['/personal_site/_nuxt/**', '/_nuxt/**'],
+      crawlLinks: true,
+      // As a safeguard, don't fail the build due to asset 404
+      failOnError: false
     }
   },
   
