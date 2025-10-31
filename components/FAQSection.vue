@@ -89,7 +89,6 @@
             >
               <p>
                 Sim! Não trabalho com contratos de fidelidade. Você pode cancelar a qualquer momento com 30 dias de antecedência. 
-                Além disso, ofereço garantia de satisfação de 30 dias - se não ficar satisfeito, devolvemos seu investimento integral. 
                 Meu objetivo é que você fique por escolha, não por obrigação.
               </p>
             </div>

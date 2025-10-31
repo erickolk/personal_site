@@ -148,17 +148,17 @@
         </div>
       </div>
 
-      <!-- Guarantee Section -->
+      <!-- Satisfaction Commitment Section -->
       <div class="bg-white rounded-2xl p-8 text-center shadow-lg" data-aos="fade-up" data-aos-delay="800">
         <div class="max-w-3xl mx-auto">
           <div class="w-20 h-20 bg-gradient-to-r from-orange-500 to-black rounded-full flex items-center justify-center mx-auto mb-6">
             <i class="fas fa-shield-alt text-white text-3xl"></i>
           </div>
           
-          <h3 class="text-3xl font-bold text-gray-800 mb-4">Garantia de Satisfação</h3>
+          <h3 class="text-3xl font-bold text-gray-800 mb-4">Compromisso com sua Satisfação</h3>
           <p class="text-xl text-gray-600 mb-6">
-            Se em 30 dias você não estiver 100% satisfeito com os resultados, 
-            devolvemos todo o seu investimento. Sem perguntas, sem complicações.
+            Em até 30 dias, ajustamos seu plano e suporte até você se sentir confiante com a evolução.
+            Transparência total e acompanhamento de perto — sem burocracia.
           </p>
           
           <div class="grid md:grid-cols-3 gap-6 text-center">

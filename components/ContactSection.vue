@@ -18,11 +18,10 @@
           <div class="mb-8">
             <h3 class="text-2xl font-bold text-gray-800 mb-4">
               <i class="fas fa-gift text-orange-500 mr-3"></i>
-              Consultoria Gratuita + E-book Exclusivo
+              Consultoria Gratuita
             </h3>
             <p class="text-gray-600">
-              Ao preencher o formulário, você ganha uma consultoria gratuita de 30 minutos e nosso e-book 
-              "7 Segredos para Acelerar sua Transformação"
+              Ao preencher o formulário, você ganha uma consultoria gratuita de 30 minutos.
             </p>
           </div>
 
