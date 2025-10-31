@@ -92,6 +92,6 @@
 </template>
 
 <script setup>
-import hero1 from '~/assets/images/feedbacks/IMG-20251005-WA0058.jpg'
-import hero2 from '~/assets/images/feedbacks/IMG-20251005-WA0060.jpg'
+import hero1 from '~/assets/images/hero/IMG_2660.PNG'
+import hero2 from '~/assets/images/hero/IMG_2662.PNG'
 </script>
