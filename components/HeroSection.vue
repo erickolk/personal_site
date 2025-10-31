@@ -1,16 +1,11 @@
 <template>
   <section id="inicio" class="relative min-h-screen flex items-center justify-center overflow-hidden">
-    <!-- Background Collage with Overlay -->
-    <div class="absolute inset-0 z-0 flex flex-col md:flex-row">
+    <!-- Background Single Image with Overlay -->
+    <div class="absolute inset-0 z-0">
       <img 
-        :src="hero1"
+        :src="hero"
         alt="Treino acompanhado"
-        class="w-full md:w-1/2 h-1/2 md:h-full object-cover"
-      >
-      <img 
-        :src="hero2"
-        alt="Treino acompanhado"
-        class="w-full md:w-1/2 h-1/2 md:h-full object-cover"
+        class="w-full h-full object-cover"
       >
       <div class="absolute inset-0 bg-black/50"></div>
     </div>
@@ -92,6 +87,5 @@
 </template>
 
 <script setup>
-import hero1 from '~/assets/images/hero/IMG_2660.PNG'
-import hero2 from '~/assets/images/hero/IMG_2662.PNG'
+import hero from '~/assets/images/hero/IMG_2662.PNG'
 </script>

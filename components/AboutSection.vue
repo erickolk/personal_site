@@ -6,8 +6,8 @@
         <div class="order-2 lg:order-1" data-aos="fade-right" data-aos-duration="1000">
           <div class="relative">
             <img 
-              src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
-              alt="Personal Trainer profissional"
+              :src="sobreImg"
+              alt="Personal Trainer em atendimento"
               class="w-full h-96 lg:h-[500px] object-cover rounded-2xl shadow-2xl"
             >
             <!-- Floating Stats -->
@@ -120,5 +120,5 @@
 </template>
 
 <script setup>
-// Component logic can be added here if needed
+import sobreImg from '~/assets/images/sobre/IMG_2660.PNG'
 </script>
