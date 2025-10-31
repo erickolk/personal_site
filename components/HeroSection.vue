@@ -1,11 +1,16 @@
 <template>
   <section id="inicio" class="relative min-h-screen flex items-center justify-center overflow-hidden">
-    <!-- Background Image with Overlay -->
-    <div class="absolute inset-0 z-0">
+    <!-- Background Collage with Overlay -->
+    <div class="absolute inset-0 z-0 flex flex-col md:flex-row">
       <img 
-        src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" 
-        alt="Personal trainer em ação"
-        class="w-full h-full object-cover"
+        :src="hero1"
+        alt="Treino acompanhado"
+        class="w-full md:w-1/2 h-1/2 md:h-full object-cover"
+      >
+      <img 
+        :src="hero2"
+        alt="Treino acompanhado"
+        class="w-full md:w-1/2 h-1/2 md:h-full object-cover"
       >
       <div class="absolute inset-0 bg-black/50"></div>
     </div>
@@ -34,7 +39,7 @@
             href="#contato" 
             class="btn-primary text-lg md:text-xl px-12 py-4 inline-flex items-center space-x-3 group"
           >
-            <span>Agende Sua Avaliação</span>
+            <span>venha fazer parte do time</span>
             <i class="fas fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
           </a>
         </div>
@@ -87,5 +92,6 @@
 </template>
 
 <script setup>
-// Component logic can be added here if needed
+import hero1 from '~/assets/images/feedbacks/IMG-20251005-WA0058.jpg'
+import hero2 from '~/assets/images/feedbacks/IMG-20251005-WA0060.jpg'
 </script>
