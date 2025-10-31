@@ -127,7 +127,7 @@ onMounted(() => {
             <div class="flex items-start space-x-3">
               <i class="fas fa-map-marker-alt text-orange-500 mt-1"></i>
               <div>
-                <p class="text-gray-300">São Paulo, SP</p>
+                <p class="text-gray-300">Alagoas, Brasil</p>
                 <p class="text-sm text-gray-400">Atendimento presencial e online</p>
               </div>
             </div>

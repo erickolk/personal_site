@@ -3,8 +3,9 @@ import { ref } from 'vue';
 import resultado1 from '~/assets/images/resultados/WhatsApp Image 2025-10-07 at 14.46.36.jpeg';
 import resultado2 from '~/assets/images/resultados/WhatsApp Image 2025-10-07 at 14.46.36 (1).jpeg';
 import resultado3 from '~/assets/images/resultados/WhatsApp Image 2025-10-07 at 14.46.36 (2).jpeg';
-import resultado4 from '~/assets/images/resultados/WhatsApp Image 2025-10-07 at 14.46.37.jpeg';
+import resultado4 from '~/assets/images/resultados/joana.jpg';
 import yasminResultado from '~/assets/images/resultados/yasmin.jpeg';
+import resultado5 from '~/assets/images/resultados/luiza.jpeg';
 
 
 const resultados = ref([
@@ -46,7 +47,7 @@ const resultados = ref([
   },
   {
     id: 3,
-    imagem: resultado4,
+    imagem: resultado5,
     nome: 'Luiza',
     descricao: 'Ganhou 6kg de massa muscular',
     pesoInicial: '70kg',

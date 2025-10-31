@@ -50,7 +50,7 @@
               <span class="text-gray-600">/mês</span>
             </div>
             <p class="text-sm text-gray-600 mb-6">
-              Pagamento: <strong>R$ 200 no PIX</strong> ou <strong>3x de R$ 74,82</strong>.
+              Pagamento: <strong>R$ 200 no PIX</strong> ou <strong>em até 12x no cartão de crédito</strong>.
             </p>
 
             <!-- CTA -->
