@@ -9,6 +9,15 @@ import yasminResultado from '~/assets/images/resultados/yasmin.jpeg';
 
 const resultados = ref([
   {
+    id: 0,
+    imagem: resultado4,
+    nome: 'Joana Porto',
+    descricao: 'Ganhou 7kg de massa muscular.',
+    pesoInicial: 'Não informado',
+    pesoAtual: 'Não informado',
+    tempo: 'Não informado',
+  },
+  {
     id: 1,
     imagem: yasminResultado,
     nome: 'Yasmin',

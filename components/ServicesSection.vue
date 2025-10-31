@@ -13,7 +13,55 @@
       </div>
 
       <!-- Services Grid -->
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <!-- Mensal Plan -->
+        <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100" data-aos="fade-up" data-aos-delay="50">
+          <div class="p-8">
+            <!-- Icon -->
+            <div class="w-16 h-16 bg-gradient-to-r from-orange-500 to-black rounded-xl flex items-center justify-center mb-6">
+              <i class="fas fa-calendar-day text-white text-2xl"></i>
+            </div>
+            
+            <!-- Title & Description -->
+            <h3 class="text-2xl font-bold text-gray-800 mb-4">Plano Mensal</h3>
+            <p class="text-gray-600 mb-6 leading-relaxed">
+              Treinamento personalizado mês a mês com acompanhamento contínuo para manter a constância e evoluir sem parar.
+            </p>
+
+            <!-- Features -->
+            <ul class="space-y-3 mb-8">
+              <li class="flex items-center space-x-3">
+                <i class="fas fa-check text-orange-500"></i>
+                <span class="text-gray-600">Treinos 100% personalizados</span>
+              </li>
+              <li class="flex items-center space-x-3">
+                <i class="fas fa-check text-orange-500"></i>
+                <span class="text-gray-600">Check-ins semanais</span>
+              </li>
+              <li class="flex items-center space-x-3">
+                <i class="fas fa-check text-orange-500"></i>
+                <span class="text-gray-600">Suporte via WhatsApp</span>
+              </li>
+            </ul>
+
+            <!-- Price -->
+            <div class="mb-2">
+              <span class="text-3xl font-bold text-gray-800">R$ 200</span>
+              <span class="text-gray-600">/mês</span>
+            </div>
+            <p class="text-sm text-gray-600 mb-6">
+              Pagamento: <strong>R$ 200 no PIX</strong> ou <strong>3x de R$ 74,82</strong>.
+            </p>
+
+            <!-- CTA -->
+            <a 
+              href="#contato" 
+              class="btn-primary w-full text-center inline-block"
+            >
+              Quero esse plano!
+            </a>
+          </div>
+        </div>
         <!-- Bimestral Plan -->
         <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100" data-aos="fade-up" data-aos-delay="100">
           <div class="p-8">
