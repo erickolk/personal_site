@@ -21,7 +21,7 @@
         <!-- Main Title -->
         <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
           Transforme Seu Corpo e 
-          <span class="text-gradient bg-gradient-to-r from-orange-400 to-black bg-clip-text text-transparent">
+          <span class="text-orange-500">
           Sua Vida
           </span>
         </h1>
@@ -39,7 +39,7 @@
             href="#contato" 
             class="btn-primary text-lg md:text-xl px-12 py-4 inline-flex items-center space-x-3 group"
           >
-            <span>venha fazer parte do time</span>
+            <span>Venha fazer parte do time!</span>
             <i class="fas fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
           </a>
         </div>
