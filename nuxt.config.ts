@@ -10,7 +10,8 @@ export default defineNuxtConfig({
   // Static Site Generation Configuration
   nitro: {
     prerender: {
-      routes: ['/']
+      // Prerender the site using the configured baseURL
+      routes: ['/personal_site/']
     }
   },
   
