@@ -1,6 +1,21 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  runtimeConfig: {
+    public: {
+      // Configure a no‑password external forms endpoint (e.g., Formspree)
+      formsEndpoint: process.env.NUXT_PUBLIC_FORMS_ENDPOINT || '',
+      // Optional CC list for FormSubmit (comma-separated)
+      formsCc: process.env.NUXT_PUBLIC_FORMS_CC || ''
+    },
+    // Optional SMTP settings for server email sending (not required if using formsEndpoint)
+    SMTP_HOST: process.env.SMTP_HOST,
+    SMTP_PORT: process.env.SMTP_PORT,
+    SMTP_USER: process.env.SMTP_USER,
+    SMTP_PASS: process.env.SMTP_PASS,
+    SMTP_FROM: process.env.SMTP_FROM,
+    CONTACT_TO: process.env.CONTACT_TO
+  },
   modules: [
     '@nuxtjs/tailwindcss',
     '@vueuse/nuxt',

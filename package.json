@@ -13,10 +13,11 @@
     "nuxt": "^3.8.0"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.2",
+    "@nuxtjs/google-fonts": "^3.0.2",
     "@nuxtjs/tailwindcss": "^6.8.4",
     "@vueuse/nuxt": "^10.5.0",
-    "@nuxtjs/google-fonts": "^3.0.2",
     "aos": "^2.3.4",
-    "@fortawesome/fontawesome-free": "^6.4.2"
+    "nodemailer": "^7.0.10"
   }
 }

@@ -230,6 +230,7 @@
 </template>
 
 <script setup>
+const config = useRuntimeConfig()
 const form = ref({
   name: '',
   email: '',
@@ -274,14 +275,71 @@ const submitForm = async () => {
   submitMessage.value = ''
   
   try {
-    // Simulate API call
-    await new Promise(resolve => setTimeout(resolve, 2000))
-    
-    // In a real application, you would send the data to your backend
-    console.log('Form submitted:', form.value)
-    
-    submitSuccess.value = true
-    submitMessage.value = 'Formulário enviado com sucesso! Entraremos em contato em até 2 horas.'
+    // Prefer external forms endpoint if configured (e.g., Formspree) — no password needed
+    const endpoint = config.public.formsEndpoint || 'https://formsubmit.co/ajax/victormanuell2022@gmail.com'
+    let ok = false
+
+    if (endpoint) {
+      const payload = {
+        name: form.value.name,
+        email: form.value.email,
+        phone: form.value.phone,
+        goal: form.value.goal || 'não informado',
+        message: form.value.message || '—',
+        consent: form.value.consent ? 'Sim' : 'Não',
+        _subject: 'Novo Lead – Consultoria Gratuita (Team Victor)',
+        _replyto: form.value.email,
+        _template: 'table',
+        _captcha: 'false'
+      }
+      // Optional CC to additional recipients via env (comma-separated)
+      if (config?.public?.formsCc) {
+        payload._cc = config.public.formsCc
+      }
+
+      const response = await fetch(endpoint, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify(payload)
+      })
+      let data
+      try {
+        data = await response.json()
+      } catch (_) {
+        data = null
+      }
+      // Consider success only if FormSubmit reports success
+      const dataSuccess = (
+        data && (
+          data.success === true ||
+          data.success === 'true' ||
+          /sent/i.test(String(data.message || ''))
+        )
+      )
+      ok = response.ok && dataSuccess
+      if (!ok) {
+        // Surface FormSubmit message (e.g., email not verified) to the user
+        const msg = data?.message || 'Falha ao enviar pelo FormSubmit. Verifique o e-mail de validação.'
+        throw new Error(msg)
+      }
+    } else {
+      // Fallback to server email endpoint (requires SMTP env vars configured on server)
+      const res = await $fetch('/api/contact', {
+        method: 'POST',
+        body: { ...form.value }
+      })
+      ok = !!(res && res.success)
+    }
+
+    if (ok) {
+      submitSuccess.value = true
+      submitMessage.value = 'Formulário enviado com sucesso! Entraremos em contato em até 2 horas.'
+    } else {
+      throw new Error('Falha ao enviar formulário')
+    }
     
     // Reset form
     form.value = {
@@ -300,7 +358,9 @@ const submitForm = async () => {
     
   } catch (error) {
     submitSuccess.value = false
-    submitMessage.value = 'Erro ao enviar formulário. Tente novamente ou entre em contato pelo WhatsApp.'
+    submitMessage.value = (error && error.message)
+      ? error.message
+      : 'Erro ao enviar formulário. Tente novamente ou entre em contato pelo WhatsApp.'
   } finally {
     isSubmitting.value = false
   }
