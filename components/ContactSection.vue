@@ -36,7 +36,7 @@
                 v-model="form.name"
                 type="text"
                 required
-                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all"
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all text-gray-800 placeholder-gray-500 bg-white"
                 :class="{ 'border-red-500': errors.name }"
                 placeholder="Seu nome completo"
               >
@@ -53,7 +53,7 @@
                 v-model="form.email"
                 type="email"
                 required
-                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all"
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all text-gray-800 placeholder-gray-500 bg-white"
                 :class="{ 'border-red-500': errors.email }"
                 placeholder="seu@email.com"
               >
@@ -70,7 +70,7 @@
                 v-model="form.phone"
                 type="tel"
                 required
-                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all"
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all text-gray-800 placeholder-gray-500 bg-white"
                 :class="{ 'border-red-500': errors.phone }"
                 placeholder="(11) 99999-9999"
               >
@@ -85,7 +85,7 @@
               <select
                 id="goal"
                 v-model="form.goal"
-                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all"
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all text-gray-800 bg-white"
               >
                 <option value="">Selecione seu objetivo</option>
                 <option value="perder-peso">Perder peso</option>
@@ -107,7 +107,7 @@
                 id="message"
                 v-model="form.message"
                 rows="4"
-                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all resize-none"
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all resize-none text-gray-800 placeholder-gray-500 bg-white"
                 placeholder="Conte sobre sua rotina, experiência com exercícios, limitações, etc."
               ></textarea>
             </div>
